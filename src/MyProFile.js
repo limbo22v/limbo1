@@ -39,7 +39,7 @@ const LoginForm = ({ onSubmit }) => {
 
   return (
     <div>
-      <h2>ຟອມເຂົ້າສູ່ລະບົບ ff</h2>
+      <h2>ຟອມເຂົ້າສູ່ລະບົບ</h2>
       <form className="form" onSubmit={handleSubmit}>
         {profileImage && (
           <img className="profile-image" src={profileImage} alt="Profile"></img>
